@@ -35,3 +35,49 @@ button {
   outline: 0;
   border: 0;
 }
+
+/*helper*/
+
+.helper {
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*Header*/
+
+.header {
+  background-image: url(/images/mobile/image-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0 10rem 0;
+}
+
+.logo {
+  width: 9rem;
+}
+
+.icon-hamburger {
+  width: 1.5rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.header-box {
+  padding-bottom: 13rem;
+}
+
+.header-box__copy {
+  border: 2px solid var(--White);
+  color: var(--White);
+  font-size: 2.5rem;
+  padding: 1rem;
+}

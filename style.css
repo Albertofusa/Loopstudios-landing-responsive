@@ -14,12 +14,12 @@
 }
 
 html {
-  font-family: "Alata", sans-serif;
-  font-family: "Josefin Sans", sans-serif;
+  font-size: var(--font-size);
 }
 
 body {
-  font-size: var(--font-size);
+  font-family: "Alata", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 img {
@@ -58,26 +58,56 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 0 10rem 0;
+  padding: 5rem 0 16rem 0;
 }
 
 .logo {
-  width: 9rem;
+  width: 15rem;
 }
 
 .icon-hamburger {
-  width: 1.5rem;
-  height: 1rem;
+  width: 2.5rem;
   cursor: pointer;
 }
 
 .header-box {
-  padding-bottom: 13rem;
+  padding-bottom: 27rem;
 }
 
 .header-box__copy {
   border: 2px solid var(--White);
   color: var(--White);
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   padding: 1rem;
+}
+
+/*Main*/
+
+.section-vr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.section-vr__box {
+  padding: 0 1rem 0 1rem;
+}
+
+.section-vr__box__title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+.section-vr__box__copy {
+  font-size: 18px;
+  line-height: 2.4rem;
+  text-align: center;
+  font-weight: 600;
+  color: var(--dark-gray);
 }

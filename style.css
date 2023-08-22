@@ -124,7 +124,7 @@ button {
 .banner__creation {
   width: 100%;
   height: 150px;
-  padding: 10rem 20rem 2rem 2rem;
+  padding: 8rem 20rem 2rem 2rem;
   background-image: url(/images/mobile/image-deep-earth.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -133,5 +133,5 @@ button {
 
 .title__banner {
   color: var(--dark-gray);
-  font-size: 2rem;
+  font-size: 2.5rem;
 }

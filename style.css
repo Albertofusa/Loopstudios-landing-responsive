@@ -114,6 +114,10 @@ button {
 
 /*Banners*/
 
+.section__banner {
+  padding-bottom: 7rem;
+}
+
 .banner__title {
   font-size: 3rem;
   font-weight: 300;
@@ -129,7 +133,6 @@ button {
 
 .banner {
   width: 100%;
-  padding: 5.5rem 20rem 2rem 2rem;
   background-image: url(/images/mobile/image-deep-earth.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -143,7 +146,49 @@ button {
   background-image: url(/images/mobile/image-soccer-team.jpg);
 }
 
+.banner__car {
+  background-image: url(/images/mobile/image-grid.jpg);
+}
+
+.banner__way {
+  background-image: url(/images/mobile/image-from-above.jpg);
+}
+
+.banner__borealis {
+  background-image: url(/images/mobile/image-pocket-borealis.jpg);
+}
+
+.banner__curiosity {
+  background-image: url(/images/mobile/image-curiosity.jpg);
+}
+
+.banner__make {
+  background-image: url(/images/mobile/image-fisheye.jpg);
+}
+
 .banner__copy {
   color: var(--White);
-  font-size: 2.5rem;
+  font-size: 2.7rem;
+  padding: 5rem 15rem 2rem 2rem;
+}
+
+.banner__copy__litle {
+  padding: 5rem 19rem 2rem 2rem;
+}
+
+.banner__button__box {
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 5rem 2rem 0 2rem;
+}
+
+.banner__button {
+  border: 2px solid var(--black);
+  background-color: var(--White);
+  padding: 1.5rem 3rem;
+  font-size: 14px;
+  letter-spacing: 1rem;
+  font-weight: 700;
+  color: var(--black);
 }

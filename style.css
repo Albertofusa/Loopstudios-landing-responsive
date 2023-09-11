@@ -192,3 +192,9 @@ button {
   font-weight: 700;
   color: var(--black);
 }
+
+/* Footer */
+
+.footer__mobile {
+  background-color: var(--black);
+}

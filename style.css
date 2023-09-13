@@ -195,6 +195,58 @@ button {
 
 /* Footer */
 
-.footer__mobile {
+.footer {
   background-color: var(--black);
+  width: 100%;
+}
+
+.footer__section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+  
+}
+
+.logo__footer {
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__links__box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__links {
+  color: var(--White);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.icon {
+  width: 22px;
+}
+
+.footer__copyright {
+  color: var(--dark-gray);
+  font-size: 10px;
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
 }

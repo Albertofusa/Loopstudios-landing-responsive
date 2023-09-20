@@ -35,6 +35,23 @@
             src="/images/icon-hamburger.svg"
             alt="icon-hamburger"
           />
+          <div class="links__desktop__box">
+            <div>
+              <a class="link__desktop" href="">About</a>
+            </div>
+            <div>
+              <a class="link__desktop" href="">Careers</a>
+            </div>
+            <div>
+              <a class="link__desktop" href="">Events</a>
+            </div>
+            <div>
+              <a class="link__desktop" href="">Products</a>
+            </div>
+            <div>
+              <a class="link__desktop" href="">Support</a>
+            </div>
+          </div>
         </nav>
         <div class="header-box">
           <p class="header-box__copy">IMMERSIVE EXPERIENCES THAT DELIVER</p>
@@ -43,10 +60,18 @@
     </header>
     <main class="helper">
       <section class="section-vr">
-        <img
-          src="/images/mobile/image-interactive.jpg"
-          alt="image-interactive"
-        />
+        <div class="section-vr__box__img--desktop">
+          <img
+            class="img-interactive-desktop"
+            src="/images/desktop/image-interactive.jpg"
+            alt="interactive-desktop"
+          />
+          <img
+            class="img-interactive-mobile"
+            src="/images/mobile/image-interactive.jpg"
+            alt="image-interactive"
+          />
+        </div>
         <div class="section-vr__box">
           <h2 class="section-vr__box__title">THE LEADER IN INTERACTIVE VR</h2>
           <p class="section-vr__box__copy">
@@ -59,8 +84,11 @@
       </section>
       <!--Banner-->
       <section class="section__banner">
-        <article>
-          <h2 class="banner__title">OUR CREATIONS</h2>
+        <article class="section__button_desktop">
+          <div>
+            <h2 class="banner__title">OUR CREATIONS</h2>
+          </div>
+          <button class="banner__button button__desktop">SEE ALL</button>
         </article>
         <article class="banner__boxes">
           <div class="banner">
@@ -89,7 +117,7 @@
           </div>
         </article>
         <div class="banner__button__box">
-          <button class="banner__button">SEE ALL</button>
+          <button class="banner__button button__mobile">SEE ALL</button>
         </div>
       </section>
     </main>

@@ -36,6 +36,20 @@ button {
   border: 0;
 }
 
+/* reseteos */
+
+.links__desktop__box {
+  display: none;
+}
+
+.img-interactive-desktop {
+  display: none;
+}
+
+.button__desktop {
+  display: none;
+}
+
 /*helper*/
 
 .helper {
@@ -136,6 +150,7 @@ button {
   background-image: url(/images/mobile/image-deep-earth.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 
 .banner__arcade {
@@ -178,19 +193,20 @@ button {
 
 .banner__button__box {
   width: 100%;
-  max-width: 70%;
-  margin: 0 auto;
-  padding: 5rem 2rem 0 2rem;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
 }
 
 .banner__button {
   border: 2px solid var(--black);
   background-color: var(--White);
-  padding: 1.5rem 3rem;
-  font-size: 14px;
+  padding: 1.5rem 2.1rem;
+  font-size: 12px;
   letter-spacing: 1rem;
   font-weight: 700;
   color: var(--black);
+  cursor: pointer;
 }
 
 /* Footer */
@@ -206,7 +222,6 @@ button {
   flex-direction: column;
   gap: 2rem;
   padding-top: 2rem;
-  
 }
 
 .logo__footer {
@@ -249,4 +264,242 @@ button {
   max-width: 50%;
   width: 100%;
   margin: 0 auto;
+}
+
+/* mediaqueries */
+
+/* 500px */
+
+@media (min-width: 500px) {
+  .section-vr__box__title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+    max-width: 65%;
+    margin: 0 auto;
+  }
+
+  .banner__title {
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0 4rem 4rem 4rem;
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+}
+
+/* 700px */
+
+@media (min-width: 700px) {
+  .section-vr__box__title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .banner__title {
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0 4rem 4rem 4rem;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .banner__boxes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0;
+    gap: 2rem;
+  }
+}
+
+/* 900px */
+
+@media (min-width: 900px) {
+  .icon-hamburger {
+    display: none;
+  }
+
+  .links__desktop__box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .link__desktop {
+    color: var(--White);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .section-vr__box__title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .banner__title {
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0 4rem 4rem 4rem;
+    width: 100%;
+    max-width: 45%;
+    margin: 0 auto;
+  }
+
+  .footer__copyright {
+    color: var(--dark-gray);
+    font-size: 10px;
+    max-width: 20%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* 1200px */
+
+  @media (min-width: 1200px) {
+    .header {
+      background-image: url(/images/desktop/image-hero.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+    }
+
+    .header-box {
+      padding-bottom: 27rem;
+    }
+
+    .header-box__copy {
+      border: 2px solid var(--White);
+      color: var(--White);
+      font-size: 7rem;
+      padding: 1rem;
+      width: 100%;
+      max-width: 55%;
+      line-height: 8 rem;
+    }
+
+    .section-vr {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 5rem;
+      padding-top: 8rem;
+      padding-bottom: 12rem;
+    }
+
+    .img-interactive-desktop {
+      display: block;
+    }
+
+    .img-interactive-mobile {
+      display: none;
+    }
+
+    .section-vr__box__img--desktop,
+    .section-vr__box {
+      flex: 1;
+    }
+
+    .section-vr__box__title {
+      font-size: 4rem;
+      font-weight: 300;
+      padding-bottom: 1.5rem;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .section-vr__box__copy {
+      font-size: 20px;
+      line-height: 2.7rem;
+      text-align: left;
+      font-weight: 600;
+      color: var(--dark-gray);
+    }
+
+    .button__desktop {
+      display: block;
+    }
+
+    .section__button_desktop {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 5rem;
+    }
+
+    .banner__title {
+      font-size: 3rem;
+      font-weight: 300;
+      padding: 0;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .banner__boxes {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    .banner {
+      width: 100%;
+      background-image: url(/images/desktop/image-deep-earth.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .banner__arcade {
+      background-image: url(/images/desktop/image-night-arcade.jpg);
+    }
+
+    .banner__soccer {
+      background-image: url(/images/desktop/image-soccer-team.jpg);
+    }
+
+    .banner__car {
+      background-image: url(/images/desktop/image-grid.jpg);
+    }
+
+    .banner__way {
+      background-image: url(/images/desktop/image-from-above.jpg);
+    }
+
+    .banner__borealis {
+      background-image: url(/images/desktop/image-pocket-borealis.jpg);
+    }
+
+    .banner__curiosity {
+      background-image: url(/images/desktop/image-curiosity.jpg);
+    }
+
+    .banner__make {
+      background-image: url(/images/desktop/image-fisheye.jpg);
+    }
+
+    .banner__copy {
+      color: var(--White);
+      font-size: 2.7rem;
+      padding: 35rem 10rem 2rem 2rem;
+    }
+
+    .banner__copy__litle {
+      padding: 35rem 19rem 2rem 2rem;
+    }
+
+    .button__mobile {
+      display: none;
+    }
+  }
 }

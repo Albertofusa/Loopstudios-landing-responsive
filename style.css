@@ -321,6 +321,14 @@ button {
     grid-template-rows: 0;
     gap: 2rem;
   }
+
+  .footer__copyright {
+    color: var(--dark-gray);
+    font-size: 11px;
+    max-width: 30%;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 /* 900px */

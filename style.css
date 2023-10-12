@@ -256,6 +256,7 @@ button {
 
 .icon {
   width: 22px;
+  cursor: pointer;
 }
 
 .footer__copyright {
@@ -500,6 +501,60 @@ button {
 
     .button__mobile {
       display: none;
+    }
+
+    .footer {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+
+    .footer__section {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+      padding-top: 0;
+    }
+
+    .padding__top {
+      padding-top: 3rem;
+    }
+
+    .logo__footer {
+      max-width: 100%;
+      width: 170px;
+      height: 50px;
+      margin: 0;
+    }
+
+    .footer__links__box {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 15px;
+      max-width: 100%;
+      width: 100%;
+      margin: 0;
+    }
+
+    .footer__icons {
+      display: flex;
+      justify-content: space-between;
+      max-width: 100%;
+      width: 30%;
+      margin: 0;
+    }
+
+    .footer__copyright {
+      color: var(--dark-gray);
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      font-size: 15px;
+      max-width: 100%;
+      width: 100%;
+      margin: 0;
     }
   }
 }
